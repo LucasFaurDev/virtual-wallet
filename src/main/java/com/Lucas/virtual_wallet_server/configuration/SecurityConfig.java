@@ -25,7 +25,7 @@ public class SecurityConfig {
                         sessionManagement.
                                 sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(httpRequest -> {
-                    httpRequest.requestMatchers("https://virtual-wallet-xvpv.onrender.com/",
+                    httpRequest.requestMatchers("https://virtual-wallet-6pbp.onrender.com/",
                                     "/api/auth/**").permitAll()
                             .anyRequest().authenticated();
                 })
