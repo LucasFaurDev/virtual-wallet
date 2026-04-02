@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+  server:
+    build: .
+    image: 'virtual-wallet-server:latest'
+    ports:
+      - '8081:8080'
+    depends_on:
+      - postgres
+    environment:
+      - 'POSTGRESQL_URL=jdbc:postgresql://postgres:5432/VirtualWallet'
+      - 'POSTGRESQL_USERNAME=postgres'
+      - 'POSTGRESQL_PASSWORD=Lucas2814'
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=VirtualWallet'
+      - 'POSTGRES_PASSWORD=Lucas2814'
+      - 'POSTGRES_USER=postgres'
+    ports:
+      - '5432:5432'
