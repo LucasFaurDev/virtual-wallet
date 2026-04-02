@@ -25,7 +25,16 @@ public class SecurityConfig {
                         sessionManagement.
                                 sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(httpRequest -> {
-                    httpRequest.requestMatchers("/", "/api/auth/**").permitAll()
+                    httpRequest.requestMatchers(
+                                    "/",
+                                    "/**/*.js",
+                                    "/**/*.css",
+                                    "/**/*.png",
+                                    "/**/*.jpg",
+                                    "/**/*.ico",
+                                    "/assets/**",
+                                    "/api/auth/**"
+                            ).permitAll()
                             .anyRequest().authenticated();
                 })
                 .addFilterBefore(jwtFilter, BasicAuthenticationFilter.class)
