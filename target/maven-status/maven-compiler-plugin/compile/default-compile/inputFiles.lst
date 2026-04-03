@@ -15,10 +15,11 @@ C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\
 C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\filter\JwtFilter.java
 C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Account.java
 C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Contact.java
+C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Dto\AuthResponse.java
 C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Dto\ContactDto.java
-C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Dto\Credentials.java
 C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Dto\LoginDto.java
 C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Dto\OperationDto.java
+C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Dto\ResponseUserDto.java
 C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Dto\UpdateContactDto.java
 C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Dto\UpdateUserDto.java
 C:\Programacion\Java Angular Full Stack\virtual-wallet-server\src\main\java\com\Lucas\virtual_wallet_server\models\Dto\UserDto.java
