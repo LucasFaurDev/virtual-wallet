@@ -14,6 +14,7 @@ import com.Lucas.virtual_wallet_server.utils.BankKeyUtil;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Service

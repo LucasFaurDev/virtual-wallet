@@ -13,7 +13,7 @@ public class OperationDto {
     private OperationType type;
 
     @NotNull(message = "The amount is required")
-    @Positive(message = "The amount must be positive")
+    @Positive(message = "The amount must be greater than 0")
     private BigDecimal amount;
 
     @NotBlank(message = "The addressee is required")
